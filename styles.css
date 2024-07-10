@@ -366,7 +366,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
+    background-image: url('looseleaf.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .fa-layer-group, 
@@ -376,9 +379,12 @@
 }
 
 #card_2 {
-    background: #ff512f;
+    /* background: #ff512f;
     background: -webkit-linear-gradient(to right, #dd2476, #ff512f);
-    background: linear-gradient(to right, #dd2476, #ff512f);
+    background: linear-gradient(to right, #dd2476, #ff512f); */
+    background-image: url('teamugs.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 /* Mobile Responsive */
@@ -465,8 +471,8 @@
 
 .services h1 {
     font-size: 2.5rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+    background-color: #3CA55C;
+    background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49 100%);
     background-size: 100%;
     background-clip: text;
     -webkit-background-clip: text;
