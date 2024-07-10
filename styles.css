@@ -240,8 +240,9 @@
     -moz-text-fill-color: transparent;
 }
 
+/* Highlights the links in navbar */
 .highlight {
-    border-bottom: 4px solid rgb(132, 0, 255);
+    border-bottom: 4px solid #d41c25;
 }
 
 @media screen and (max-width: 768px) {
